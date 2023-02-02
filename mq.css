@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  :root {
+    --primary-color: rgb(82, 98, 102);
+    --primary-color-darker: rgb(30, 39, 41);
+  }
+ 
+  
+
+
+  h1 {
+    letter-spacing: 5px;
+
+    margin-bottom: 20px;
+  }
+
+  .div1 {
+    width: 645px;
+    height: 595px;
+
+    box-shadow: inset 3px 2px 5px white;
+
+    position: absolute;
+  }
+
+  .container {
+    height: 600px;
+    width: 650px;
+  }
+
+  .display {
+    width: 250px;
+    height: 120px;
+
+    float: right;
+
+    margin-top: 155px;
+
+    font-size: 7em;
+
+    position: relative;
+  }
+
+  .btn {
+    width: 70px;
+    height: 75px;
+
+    font-size: 25px;
+  }
+
+  .calculadora {
+    width: 220px;
+    height: 10px;
+
+    margin-bottom: 30px;
+    border-spacing: 5px 15px;
+
+    position: absolute;
+  }
+}
